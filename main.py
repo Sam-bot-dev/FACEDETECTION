@@ -1,5 +1,5 @@
 import cv2 
-face_cap=cv2.CascadeClassifier("/home/sam/CODE/poithon/FACE-RECOGNITION/haar_face.xml")
+face_cap=cv2.CascadeClassifier("haar_face.xml")
 vid_capture = cv2.VideoCapture(0)
 
 while True:
